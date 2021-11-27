@@ -1,38 +1,148 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+
+* {
+  /* border: 1px dotted black; */
+  font-family: "Montserrat", sans-serif;
+  background-color: #e0e0e0;
+}
+.skill {
+  width: 32%;
+  font-size: 1.7rem;
+  background-color: #828e82;
+  color: #e0e0e0;
+  border: 2px solid #3a606e;
+  border-radius: 5px;
+}
+.skill:hover {
+  background-color: #3a606e;
+}
+
+.title {
+  padding-top: 40px;
+  font-size: 3rem;
+}
+.skills {
+  display: flex;
   text-align: center;
+  width: 50%;
+  flex-wrap: wrap;
+  margin-left: 25%;
+  padding-left: 9px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bio {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 100px;
+  font-size: 2rem;
+  border: 10px solid #aaae8e;
+  background-color: #3a606e;
+  border-radius: 15px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bioText {
+  background-color: #3a606e;
+  color: #e0e0e0;
+  padding: 0 10px 0 10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
+  display: flex;
+  background-image: url("./mountains.jpg");
+  background-position: center;
+  width: 100%;
+  height: 200px;
+}
+.lefthead {
+  width: 200px;
+  font-size: 3rem;
+  font-weight: 700;
+  padding-left: 10px;
+  color: #e0e0e0;
+  background-color: transparent;
+  letter-spacing: 2px;
+}
+.righthead {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-left: 50%;
+  height: 40px;
+  margin-top: 50px;
+  color: #e0e0e0;
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.right {
+  width: 100px;
+  text-align: center;
+  padding-right: 20px;
+  background-color: transparent;
+}
+.right:hover {
+  color: #828e82;
+}
+h1 {
+  text-align: center;
+  width: 40%;
+  margin-left: 30%;
+  color: #3a606e;
+}
+h2 {
+  padding-top: 100px;
+  text-align: center;
+  width: 30%;
+  margin-left: 35%;
+  color: #3a606e;
+  font-size: 2.6rem;
+}
+h3 {
+  text-align: center;
+  width: 40%;
+  color: #3a606e;
+  font-size: 1.7rem;
+  text-decoration: none;
+}
+.project {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  width: 50%;
+  padding-top: 70px;
+  padding-bottom: 450px;
 }
-
-.App-link {
-  color: #61dafb;
+a:hover {
+  color: #828e82;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a:link {
+  text-decoration: none;
+  color: #3a606e;
+  color: #828e82;
+}
+a:visited {
+  color: #3a606e;
+}
+.ptext {
+  width: 40%;
+  display: flex;
+  align-content: center;
+  font-size: 1.4rem;
+  background-color: #3a606e;
+  border: 10px solid #aaae8e;
+  border-radius: 15px;
+  padding: 10px 10px 10px 10px;
+}
+.projects {
+  display: flex;
+  flex-direction: row;
+  background-color: #3a606e;
+  width: 80%;
+  margin-left: 10%;
+  color: #e0e0e0;
+}
+.projecth1 {
+  padding-top: 100px;
+  font-size: 2.6rem;
+}
+footer {
+  text-align: center;
 }
