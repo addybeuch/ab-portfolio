@@ -23,6 +23,19 @@ html {
   padding-top: 40px;
   font-size: 3rem;
 }
+.logos {
+  font-size: 3.3rem;
+  width: 20%;
+  padding-left: 40%;
+  text-align: center;
+}
+.logo {
+  padding: 10px 15px 10px 15px;
+  color: #828e82;
+}
+.logo:hover {
+  color: #3a606e;
+}
 .skills {
   display: flex;
   text-align: center;

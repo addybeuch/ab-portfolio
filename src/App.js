@@ -1,4 +1,10 @@
 import "./App.css";
+import {
+  faGithub,
+  faInstagram,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function App() {
   return (
@@ -19,7 +25,17 @@ function App() {
         </div>
       </header>
       <h1 className="title">Full Stack Web Developer</h1>
-
+      <div className="logos">
+        <a className="logo" href="https://github.com/addybeuch">
+          <FontAwesomeIcon icon={faGithub} />
+        </a>
+        <a className="logo" href="https://www.linkedin.com/in/adam-beuchert/">
+          <FontAwesomeIcon icon={faLinkedin} />
+        </a>
+        <a className="logo" href="https://www.instagram.com/dr_deeds/?hl=en">
+          <FontAwesomeIcon icon={faInstagram} />
+        </a>
+      </div>
       <div className="bio" id="bio">
         <p className="bioText">
           Hello! My name is Adam Beuchert. I enjoy working on cars, playing
@@ -57,7 +73,7 @@ function App() {
         <div className="project">
           <h3>
             <a href="https://github.com/Build-Week-African-Marketplace-7/marketplace-backend">
-              African Marketplace
+              African Culture Marketplace
             </a>
           </h3>
           <p className="ptext">
