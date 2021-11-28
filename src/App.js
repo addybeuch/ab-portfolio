@@ -7,14 +7,20 @@ function App() {
         <p className="lefthead">Adam</p>
         <p className="lefthead">Beuchert</p>
         <div className="righthead">
-          <p className="right">About Me</p>
-          <p className="right">Skills</p>
-          <p className="right">Projects</p>
+          <a className="right" href="#bio">
+            About Me
+          </a>
+          <a className="right" href="#skillstop">
+            Skills
+          </a>
+          <a className="right" href="#projecth1">
+            Projects
+          </a>
         </div>
       </header>
       <h1 className="title">Full Stack Web Developer</h1>
 
-      <div className="bio">
+      <div className="bio" id="bio">
         <p className="bioText">
           Hello! My name is Adam Beuchert. I enjoy working on cars, playing
           video games, and coding! I am studying at Bloomtech Institute of
@@ -26,7 +32,7 @@ function App() {
         </p>
       </div>
 
-      <h2>Skills</h2>
+      <h2 id="skillstop">Skills</h2>
       <div className="skills">
         <p className="skill">HTML</p>
         <p className="skill">CSS</p>
@@ -44,7 +50,9 @@ function App() {
         <p className="skill">Postman</p>
         <p className="skill">GIT</p>
       </div>
-      <h1 className="projecth1">Projects</h1>
+      <h1 className="projecth1" id="projecth1">
+        Projects
+      </h1>
       <div className="projects">
         <div className="project">
           <h3>
