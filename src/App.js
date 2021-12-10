@@ -60,7 +60,6 @@ function App() {
         <p className="skill">Express</p>
         <p className="skill">SQL</p>
         <p className="skill">Jest</p>
-        <p className="skill">Python</p>
         <p className="skill">Github</p>
         <p className="skill">SQLite3</p>
         <p className="skill">Postman</p>
