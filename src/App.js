@@ -82,11 +82,16 @@ function App() {
         </div>
         <div className="project">
           <h3>
-            <a href="https://github.com/addybeuch/yorick_guide">Yorick Guide</a>
+            <a href="https://yorick-guide-an5n1qmto-addybeuch.vercel.app/">
+              Yorick Guide
+            </a>
           </h3>
           <p className="ptext">
             A personal project using React including useState and useEffect to
-            render content
+            render content (Work in Progress)
+          </p>
+          <p>
+            <a href="https://github.com/addybeuch/yorick_guide">Github</a>
           </p>
         </div>
       </div>
